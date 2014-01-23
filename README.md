@@ -1,5 +1,8 @@
 # Libberfy Mad Libs API
 
+Check it out:
+<a href="http://libberfy.herokuapp.com/?q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com/?q=Hello%20world.%20Testing%20this%20API.</a>
+
 Send a GET request with 'q' as a key and a body of text as it's value...
 ```
 http://libberfy.herokuapp.com/?q=At Indiegogo you’ll find a welcoming, supportive community that
