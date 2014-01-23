@@ -19,7 +19,7 @@ coffee, and post-it notes! Lots of post-it notes!
 Get back a Mad Libberfied version of the text in sweet JSON...
 ```json
 {
-"madlib": "At Indiegogo <noun> find a welcoming , <adjective> community that embraces
+"madlib": "At Indiegogo you'll find a welcoming , <adjective> <noun> that embraces
 collaboration , fearlessness and authenticity . We are a rapidly <verb_ending_with_ing>
 organization and our platform is used by people all over the world to <verb> <noun> for
 their creative , cause-related , or entrepreneurial ideas . Our customers are passionate
