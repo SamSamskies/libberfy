@@ -1,0 +1,3 @@
+# Libberfy Mad Libs API
+
+Details coming soon...
