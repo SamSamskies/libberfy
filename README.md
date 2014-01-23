@@ -1,8 +1,10 @@
 # Libberfy Mad Libs API
 
 Check it out:
+- Without blanks param:
 <a href="http://libberfy.herokuapp.com?q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com?q=Hello%20world.%20Testing%20this%20API.</a>
 
+- With blanks param:
 <a href="http://libberfy.herokuapp.com?blanks=1&q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com?blanks=1&q=Hello%20world.%20Testing%20this%20API.</a>
 
 
