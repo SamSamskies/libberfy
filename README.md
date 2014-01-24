@@ -1,5 +1,7 @@
 # Libberfy Mad Libs API
 
+Full demo web app using this API here: <a href="http://samsamskies.github.io/libberfy-demo/">http://samsamskies.github.io/libberfy-demo/</a>
+
 This API is built using a Mad Lib generating gem I made. Please check <a href="https://github.com/SamSamskies/madlibber">https://github.com/SamSamskies/madlibber</a> for more info.
 
 Check it out:
