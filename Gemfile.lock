@@ -19,6 +19,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  madlibber (~> 0.0.5)
+  madlibber
   shotgun
   sinatra

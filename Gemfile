@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'sinatra'
-gem "madlibber", "~> 0.0.5"
+gem "madlibber"
 
 group :development do
   gem 'shotgun'
