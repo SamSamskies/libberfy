@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'madlibber'
 require 'json'
-require 'pry'
 
 before do
   response.header['Access-Control-Allow-Origin'] = '*'
