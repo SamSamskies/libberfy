@@ -10,7 +10,7 @@ Check it out:
 <a href="http://libberfy.herokuapp.com?blanks=1&q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com?blanks=1&q=Hello%20world.%20Testing%20this%20API.</a>
 
 - With html_form param:
-<a href="http://libberfy.herokuapp.com?html_form=1&q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com?blanks=1&q=Hello%20world.%20Testing%20this%20API.</a>
+<a href="http://libberfy.herokuapp.com?html_form=1&q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com?html_form=1&q=Hello%20world.%20Testing%20this%20API.</a>
 
 
 ## USAGE
