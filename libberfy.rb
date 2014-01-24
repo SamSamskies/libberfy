@@ -2,6 +2,11 @@ require 'sinatra'
 require 'madlibber'
 require 'json'
 
+before do
+  response.header['Access-Control-Allow-Origin'] = '*'
+  response.headers["Access-Control-Allow-Methods"] = "GET"
+end
+
 get '/' do
   content_type :json
   num_of_blanks = params[:blanks]
