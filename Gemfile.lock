@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     engtagger (0.1.2)
-    madlibber (0.0.4)
+    madlibber (0.0.5)
       engtagger
     rack (1.5.2)
     rack-protection (1.5.2)
@@ -19,6 +19,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  madlibber (~> 0.0.4)
+  madlibber (~> 0.0.5)
   shotgun
   sinatra

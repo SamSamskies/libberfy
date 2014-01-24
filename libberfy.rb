@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'madlibber'
 require 'json'
+require 'pry'
 
 before do
   response.header['Access-Control-Allow-Origin'] = '*'
@@ -9,13 +10,11 @@ end
 
 get '/' do
   content_type :json
-  num_of_blanks = params[:blanks]
+  num_of_blanks = params[:blanks].to_i if params[:blanks]
+  html_form = params[:html_form].to_i if params[:html_form]
 
-  if num_of_blanks
-    madlib = MadLibber.libberfy params[:q], { num_of_blanks: num_of_blanks.to_i }
-  else
-    madlib = MadLibber.libberfy params[:q]
-  end
+  options = { num_of_blanks: num_of_blanks, html_form: html_form }
+  options.delete :num_of_blanks unless num_of_blanks
 
-  { madlib: madlib }.to_json
+  { madlib: (MadLibber.libberfy params[:q] , options) }.to_json
 end
