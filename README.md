@@ -3,11 +3,14 @@
 This API is built using a Mad Lib generating gem I made. Please check <a href="https://github.com/SamSamskies/madlibber">https://github.com/SamSamskies/madlibber</a> for more info.
 
 Check it out:
-- Without blanks param:
+- Without blank and html_form params:
 <a href="http://libberfy.herokuapp.com?q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com?q=Hello%20world.%20Testing%20this%20API.</a>
 
 - With blanks param:
 <a href="http://libberfy.herokuapp.com?blanks=1&q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com?blanks=1&q=Hello%20world.%20Testing%20this%20API.</a>
+
+- With html_form param:
+<a href="http://libberfy.herokuapp.com?html_form=1&q=Hello%20world.%20Testing%20this%20API.">http://libberfy.herokuapp.com?blanks=1&q=Hello%20world.%20Testing%20this%20API.</a>
 
 
 ## USAGE
